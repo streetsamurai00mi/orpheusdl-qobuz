@@ -38,7 +38,7 @@ class Qobuz:
     def login(self, email: str, password: str, password_hash: str):
         params = {
             'username': email,
-            'password': password_hash if password_hash else hash_string(password, 'MD5'),
+            'password': password if password_hash else hash_string(password, 'MD5'),
             'extra': 'partner',
             'app_id': self.app_id
         }
