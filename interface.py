@@ -8,7 +8,7 @@ from .qobuz_api import Qobuz
 module_information = ModuleInformation(
     service_name = 'Qobuz',
     module_supported_modes = ModuleModes.download | ModuleModes.credits,
-    global_settings = {'app_id': '', 'app_secret': '', 'quality_format': '{sample_rate}kHz {bit_depth}bit'},
+    global_settings = {'app_id': '', 'app_secret': '', 'quality_format': '{sample_rate}-{bit_depth}'},
     session_settings = {'username': '', 'password': '', 'password_hash': ''},
     session_storage_variables = ['token'],
     netlocation_constant = 'qobuz',
