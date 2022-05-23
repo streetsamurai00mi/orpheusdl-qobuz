@@ -36,13 +36,13 @@ Follow these steps to get a local copy of Orpheus up and running:
 
 ### Prerequisites
 
-* Already have [OrpheusDL](https://github.com/yarrm80s/orpheusdl) installed
+* Already have [OrpheusDL](https://github.com/streetsamurai00mi/orpheusdl) installed
 
 ### Installation
 
 1. Clone the repo inside the folder `orpheusdl/modules/`
    ```sh
-   git clone https://github.com/yarrm80s/orpheusdl-qobuz.git qobuz
+   git clone https://github.com/streetsamurai00mi/orpheusdl-qobuz.git qobuz
    ```
 2. Execute:
    ```sh
